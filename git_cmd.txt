@@ -1,0 +1,88 @@
+Git init -  initializes repo
+
+git status -  check for changes made 
+
+git add * / git add <file_name>  to save the changes 
+
+git commit - m"<message after commiting" // for storing the changes 
+
+code <file_name> to go inside file_name
+
+ni <file_name>  // to create new file 
+
+git restore --staged <file>... //  to uncapture / unstage the changes made
+
+git log  // all the activities that was done / history
+
+git reset sys_id // to reset to the place where it was recorded
+
+git stash // to store the work in background not to commit can be retrived when required
+
+
+git stash pop  //  to retieve the data from backstage 
+
+git stach clear // to delete the data form the stash
+
+
+git remote add origin <repolink> // to link the local project in github repo 
+
+git push origin master   // to push the files to repo
+
+
+ git remote -v // to see all the repos in git hub
+
+branches 
+
+forks 
+
+to clone the data from any repository 
+
+
+git clone https://github.com/akshay-rpt/commclassroomOP.git
+
+after fork 
+
+
+upstream URL  - form the url where we forked the folder
+
+
+origin is personal 
+
+upstream is from where we forked 
+
+
+git remote add upstream https://github.com/commclassroom/commclassroomOP
+
+
+
+ git remote -v connected repos
+ 
+ 
+create a new branch 
+git branch <name>
+
+to point to the branch 
+git checkout <name>
+
+
+
+git fetch --all --prune // to fetch all the updates 
+
+
+git reset --hard upstream/main //  to set all the changes from upstream to main
+
+
+git pull upstream main //  to pull all the chnages from upstream to main  does fetch and reset 
+
+
+
+git push origin main 	pushes the changes to repo
+
+
+	- combine multiplie commits 
+	git rebase -i <file_sys_id>
+	click esc and select s/p and the esc , : , x
+	create a messsge <message > and esc , : , x
+	
+	nnow check git log all the commits will be mergered
+	
